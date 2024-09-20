@@ -1,0 +1,108 @@
+body{
+    background: #1c0808;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+body > #mainPage{
+    background: #650909;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+body > #mainPage > #headerDiv{
+    display: flex;
+    justify-content: center;
+    background: #840f0f;
+    border-radius: 15px;
+    padding: 15px;
+    width: auto;
+}
+body > #mainPage > #headerDiv > div{
+    text-align: center;
+    border: 2px solid #f1d0a2;
+    background: #b42323;
+}
+body > #mainPage > #headerDiv > h1{
+    text-align: center;
+    margin: auto;
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+body > #mainPage > #headerDiv > svg{
+    width: 200px;
+    height: 200px;
+}
+body > #mainPage > #formDiv{
+    background: #f1d0a2;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    width: auto;
+}
+body > #mainPage > #formDiv > form > .formBox{
+    border: 2px solid #b42323;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: #1c0808 0 2px 2px 0;
+}
+body > #mainPage > #formDiv > form > #buttonBox{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 425px;
+}
+body > #mainPage > #formDiv > form > #buttonBox > button{
+    display: flex;
+    justify-content: center;
+    background: #840f0f;
+    border: 2px solid #1c0808;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+}
+body > #mainPage > #formDiv > form > #buttonBox > button > svg{
+    font-size: 40px;
+}
+body > #mainPage > #formDiv > form > #buttonBox > #backButton{
+    background: #1c0808;
+    color: #f1d0a2;
+}
+body > #mainPage > #formDiv > form > #buttonBox > #orderButton:hover{
+    background: #b42323;
+    color: #f1d0a2;
+    transition: 1s;
+}
+body > #mainPage > #formDiv > form > .formBox > input[type="text"],input[type="number"], select{
+    border-radius: 5px;
+    background: #840f0f;
+    margin-left: 10px;
+    height: 30px;
+    color: #f1d0a2;
+}
+body > #mainPage > #formDiv > form > .formBox > input[type="checkbox"],input[type="radio"]{
+    margin-bottom: 1px;
+    margin-left: 20px;
+    border: none;
+    width: 2%;
+    height: 1.4em;
+    accent-color: #1c0808;
+}
+body > #mainPage > #formDiv > form > .formBox > #rangeDiv > input[type="range"]{
+    accent-color: #840f0f;
+    width: 100%;
+}
+body > #mainPage > #formDiv > form > .formBox > #rangeDiv > #spanDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+::placeholder{
+    color: #f1d0a2;
+}
+body > #mainPage > #formDiv > form > .formBox > div > svg{
+    vertical-align: middle;
+    color: #840f0f;
+}
