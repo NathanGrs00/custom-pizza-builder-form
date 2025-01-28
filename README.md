@@ -2,6 +2,8 @@
 
 This is an html form for customizing your favourite pizza!
 
+![Image](https://github.com/user-attachments/assets/611cfc74-7edb-4d51-9e4c-02e680ecc49b)
+
 ## Getting Started
 
 To view this form, open the html file in a browser, or host it locally through XAMPP.
